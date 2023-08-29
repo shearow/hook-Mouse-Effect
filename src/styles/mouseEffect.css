@@ -1,0 +1,28 @@
+.main-section {
+    min-height: 100vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+.main-section * {
+    z-index: 500;
+    position: relative;
+}
+.main-section button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    background-color: #4b0000;
+    border: .1rem solid #ffffff;
+    color: #ffffff;
+    height: fit-content;
+    width: fit-content;
+}
+.main-section .changeColorMouse label{
+    padding-right: .5rem;
+}
